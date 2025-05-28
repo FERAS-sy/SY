@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header div {
+    font-weight: bold;
+    font-size: 2em;
+    color: red;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: green;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: darkgreen;
+}
+
+.messages {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.message {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.message .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.message .sender {
+    font-weight: bold;
+    margin-left: 5px;
+    color: green;
+}
+
+footer {
+    margin-top: 30px;
+    color: #555;
+    font-size: 0.9em;
+    text-align: center;
+}
